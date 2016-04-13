@@ -228,6 +228,11 @@
 
 });    */
 
+  $('#ehvi').accordion({
+    collapsible : true,
+    heightStyle : 'content'
+  });
+
     });
 
     var APPID="fbb610483c3d585d1a34e96d64ef926b";

@@ -33,11 +33,16 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
     #wrapper {
 
     font-size: 1.6em;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 80%;
     height: 700px;
-    background-color: #FFEE97;
-/*    border-radius: 20px;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+
     }
 
     header {
@@ -88,11 +93,8 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
         margin-left: -3px;
 
 
-
-
     }
     nav ul{
-
 
             background: #000000; /* fallback for old browsers */
             background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
@@ -159,16 +161,6 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
     }
 
 
-     section{
-
-                float: left;
-                margin-top: 15px;
-
-                width:100%;
-                height: 400px;
-            }
-
-
     heading {
                 background: #FFEE97;
                 float: left;
@@ -188,80 +180,19 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
 
     }
 
-     article{
-                float: left;
-                margin-top: 0px;
-
-                width:50%;
+     #ehvi{
+                margin-top: 50px;
+                width:100%;
                 height:380px;
                 overflow: auto;
     }
 
-    .para1{
-        margin-top: 25px;
-    }
 
-    #chalo{
-        margin-top: 30px;
-        overflow-y: auto;
-
-
-
-    }
-    #ehvi{
-        margin-top: -2px;
-        border: 1px solid white;
-        background: #FFEE97;
-        height: 50px;
-        position: absolute;
-        width: 37.5%;
-        background: #000000; /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    #ehvi  ul {
-        margin-top: -15px;
-
-    }
-
-
-
-
-    article  ul{
-        height: 20px;
-        margin: 0px;
-        font-family: "verdana",sans-serif;
-        padding-left: 10px;
-        list-style: none;
-        text-align: center;
-
-
-    }
-    article  ul li{
-        display: inline-block;
-        position: relative;
-        padding-left: 20px;
-        text-decoration: none;
-        color: red;
-
-    }
 
 
     .hovering{
         font-weight: bold;
         text-decoration: none;
-    }
-
-    article ul li a{
-        text-decoration: none;
-    }
-
-    .para {
-
-        font-size: 14px;
-        text-decoration:none;
-        color:white;
-          font-family: sans-serif;
     }
 
 
@@ -270,13 +201,27 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
         src: url(Prabhki.ttf);
     }
 
-     aside{
-                clear: both;
-                width:100%;
-                height: 150px;
-            }
+    #resources {
+      margin-top: 80px;
+      text-align: center;
 
-    aside p{
+    }
+    #resources a{
+      font-family: 'Tangerine', cursive;
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      margin-left: 20px;
+    }
+
+
+    #quote{
+      position: relative;
+      margin-top: 50px;
+    }
+
+    #quote p{
         font-family: customfont;
         margin-left: 110px;
         width: 80%;
@@ -284,8 +229,9 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
         font-size: 40px;
         font-weight: bold;
         text-align: center;
-        padding: 40px;
-        color:#404040;
+        /*padding: 40px;*/
+        color:#006400;
+
     }
 
 
@@ -332,8 +278,6 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
     #hello {
         display: none;
     }
-
-
 
     #weather-app{
 
@@ -411,7 +355,7 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
 
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 50%;
         height: 370px;
         overflow: hidden;
     }
@@ -441,4 +385,9 @@ background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, F
     font-size: 20px;
     color: antiquewhite;
     text-align: center;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
 }
