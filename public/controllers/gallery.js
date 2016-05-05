@@ -184,7 +184,7 @@
              h=h!=0 ? h:12;
 
             m= m >= 10 ? m : '0'+m;
-            s= s >10 ? s : '0'+s;
+            s= s >= 10 ? s : '0'+s;
 
             var time=h+' :'+m+' :'+s+' '+amorpm;
             document.getElementById("date").innerHTML=time;
