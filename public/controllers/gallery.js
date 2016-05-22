@@ -31,7 +31,7 @@
             modal:false,
             show: {
             effect: "blind",
-            duration: 1000
+            duration: 200
                 },
             hide: {
             effect: "explode",
@@ -59,6 +59,14 @@
             modal:false,
             width:500,
            height:500,
+           show: {
+           effect: "blind",
+           duration: 200
+               },
+           hide: {
+           effect: "explode",
+           duration: 1000
+               },
             buttons: {
                 "OK": function() {
                     $(this).dialog('close');
