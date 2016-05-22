@@ -1,12 +1,5 @@
-
-
   $(document).ready(function(){
-
-
-
-
     $('#link1').addClass('hovering');
-
     $("#link1").hover(function(){
         $("#first").show(100);
         $("#second").hide(100);
@@ -14,11 +7,8 @@
         $("#link1").addClass("hovering");
          $("#link2").removeClass("hovering");
         $("#link3").removeClass("hovering");
-
     });
-
     $("#link2").hover(function(){
-
         $("#second").show(100);
         $("#first").hide(100);
         $("#third").hide(100);
@@ -36,11 +26,6 @@
         $("#link1").removeClass("hovering");
 
     });
-
-
-
-
-
         $("#guru").click(function(){
         $("#hello").attr('title','Significance').dialog({
             modal:false,
