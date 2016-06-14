@@ -13,5 +13,8 @@
     "express": "^4.13.4",
     "nodemon": "^1.9.1",
     "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "win-spawn": "^2.0.0"
   }
 }
